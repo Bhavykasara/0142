@@ -1,0 +1,79 @@
+#heading {
+    width: 90%;
+    padding: 1.5%;
+    text-align: right;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-family: 'Spectral SC', serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+#footer {
+    bottom: 0px;
+}
+
+
+#mar {
+    bottom: 0px;
+    position: fixed;
+    background-color: white;
+    border-top: black solid 2px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0.5%;
+}
+
+#canvas {
+    width: 50%;
+    height: 30%;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+#ins {
+    margin-left: 25%;
+}
+
+body {
+    background-size: cover;
+}
+
+#play {
+    background-color: chartreuse;
+    font-size: 20px;
+    color: black;
+    font-family: 'Spectral SC', serif;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+}
+
+#replay {
+    background-color: chartreuse;
+    font-size: 20px;
+    color: black;
+    font-family: 'Spectral SC', serif;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    margin-left: 5%;
+}
+
+#stat {
+    background-color: chartreuse;
+    font-size: 20px;
+    color: black;
+    font-family: 'Spectral SC', serif;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    margin-left: 5%;
+}

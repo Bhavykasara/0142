@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="https://images.hdqwalls.com/download/4k-texture-simple-background-21-1280x720.jpg">
+        <center>
+            <h1 id="heading">Ping Pong Game <button class="btn btn-success" data-toggle="modal" data-target="#myModal" id="ins">Instructions</button></h1>
+            <button id="play" class="btnb btn-primary" onclick="star()">Play</button><button id="replay" class="btnb btn-primary" >Restart</button><button id="stat"></button>
+            <div id="canvas"></div>
+            <div id="game_console"></div>
+
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <center> 
+                           <h2 style="font-family: 'Spectral SC', serif;">Instructions</h1>
+                            <h4 style="font-family: 'Spectral SC', serif;">1. Keep your laptop screen straight.<br>
+                                2. Keep yourself away from laptop.<br>
+                                3. Move your right wrist ascending to decsending, a red dot will appear on the wrist.<br>
+                                4. Press play button and again move back.<br>
+                                5. Red paddel is your paddel move your wrist to move it.
+                            </h4>
+                            </center>
+                            
+                        </div>
+                        <div class="modal-body">
+                            <center>
+                                <a class="btn btn-success" data-dismiss="modal">Continue</a>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <div id="footer">
+            <marquee id="mar">
+              Source code : Lenuk || Game credit : Mario
+            </marquee>
+          </div>
+    
+    
+        <script src="main.js"></script>
+    </body>
+</html>
